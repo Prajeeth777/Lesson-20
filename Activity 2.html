@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Activity 2</title>
+</head>
+<body>
+    <h2>Scope of Variables</h2>
+    <button onclick="add(60,80)">Sum</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        var a=10;
+        function add(){
+            var b=20;
+            document.getElementById("p1").innerHTML=a+b;
+            document.getElementById("p2").innerHTML=b;
+        }
+        document.getElementById("p3").innerHTML=b;
+    </script>
+</body>
+</html>
