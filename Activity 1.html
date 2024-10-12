@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Activity 1</title>
+</head>
+<body>
+    <h2>Function Declaration</h2>
+    <button onclick="myfunction()">Click Me</button>
+    <button onclick="add(60,80)">Sum</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        function myfunction(){
+            document.getElementById("p1")
+            innerHTML="Welcome to my first function";
+        }
+        function add(a,b){
+            document.getElementById("p2").innerHTML=a+b;
+        }
+    </script>
+</body>
+</html>
